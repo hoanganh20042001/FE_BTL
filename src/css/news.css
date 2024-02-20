@@ -1,0 +1,24 @@
+.news {
+    margin-top: 60px;
+}
+
+.new-item {
+    width: 400px;
+    margin: auto;
+}
+
+.news-head {
+    width: 100%;
+    background-color: aqua;
+    max-width: 90%;
+}
+
+.news__title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.news__content {
+    font-weight: 400;
+    color: #777;
+}
