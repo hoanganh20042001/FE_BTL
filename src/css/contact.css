@@ -1,0 +1,51 @@
+.mantine-TextInput-root > label {
+    font-size: 18px;
+    margin-left: -30px;
+}
+
+.mantine-Textarea-root > label {
+    font-size: 18px;
+    margin-left: -30px;
+}
+
+.contact-submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-submit-btn {
+    width: 96.5%;
+    transition: background-color 0.3s;
+}
+
+.contact-submit-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.contact-description {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-company-logo {
+    background: transparent;
+    color: black;
+    transition: color 0.3s;
+}
+
+.contact-company-logo:hover {
+    background: transparent;
+    color: #495057;
+}
+
+.contact-company-logo-text {
+    font-size: 26px;
+}
+
+.contact-company-name {
+    font-size: 24px;
+    font-weight: 600;
+}

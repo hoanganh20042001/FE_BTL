@@ -1,0 +1,4 @@
+.admin__delete-btn:hover {
+    color: white !important;
+    background-color:red !important;
+}

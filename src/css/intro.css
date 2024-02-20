@@ -1,0 +1,26 @@
+:root {
+    --bg-color: rgb(74, 244, 159);
+    --selected-color: rgb(0, 222, 192);
+}
+
+.intro__content {
+    background-color: var(--selected-color);
+}
+
+.intro__body {
+    padding: 20px 0;
+}
+
+.mantine-Tabs-tabLabel {
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.mantine-Tabs-tabLabel:hover {
+    color: black;
+}
+
+.intro-image {
+    margin-top: 10px;
+}

@@ -1,0 +1,46 @@
+.form-signin-container {
+    text-align: center;
+    margin: auto;
+}
+
+.form-username-input > label {
+    margin-left: 0;
+    font-size: 16px;
+    float: left;
+}
+
+.form-password-input > label {
+    font-size: 16px;
+    float: left;
+}
+
+/* this is toggle password button */
+.mantine-1vhreye {
+    margin-top: 30px;
+}
+
+.form-company-logo {
+    background: transparent;
+    color: black;
+    transition: color 0.3s;
+    height: auto;
+}
+
+.form-company-logo:hover {
+    background: transparent;
+    color: Gray;
+}
+
+.form-company-logo-text {
+    font-size: 48px;
+}
+
+.form-signin-submit-btn {
+    width: 100%;
+    border-radius: 15px;
+    transition: color 0.3s;
+}
+
+.form-signin-submit-btn:hover {
+    color: gray;
+}

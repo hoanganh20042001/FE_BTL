@@ -1,0 +1,27 @@
+.detail-container {
+    background-color: #f5f5f5;
+}
+
+.detail-section-container {
+    background-color: white;
+}
+
+.detail-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-product-name {
+    margin-left: 10%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.mantine-1m3pqry > label {
+    margin-left: auto;
+}
+
+.comment-card-container {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cfcfcf;
+}

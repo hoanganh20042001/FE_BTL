@@ -1,0 +1,14 @@
+.home {
+    margin-top: 60px;
+}
+
+.home-title {
+    margin: 15px;
+    font-weight: 600;
+}
+
+.new-products-site,
+.feature-products-site {
+    margin-left: 5%;
+    margin-right: 5%;
+}

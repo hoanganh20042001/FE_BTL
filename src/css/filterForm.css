@@ -1,0 +1,16 @@
+.filter-radio-select > label {
+    padding-left: 0.5vw;
+}
+
+.filter-radio-select {
+    margin-left: 0.5vw;
+}
+
+.filter-radio-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mantine-MultiSelect-searchInput {
+    border: none !important;
+}

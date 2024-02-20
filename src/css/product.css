@@ -1,0 +1,73 @@
+.product-img-zoom {
+    transition: transform 0.3s; /* Animation */
+}
+
+.product-img-zoom:hover {
+    transform: scale(1.05);
+}
+
+.product-name {
+    /* the color  */
+    --c: rgba(13, 25, 31, 0.7);
+    /* the height */
+    --h: 1.2em;
+    font-size: 1.3em;
+    /* The first hover effect in this article */
+    line-height: var(--h);
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 0 calc(-1 * var(--_t, 0em)) var(--c),
+        0 calc(var(--h) - var(--_t, 0em)) #fff;
+    /* The second hover effect from the previous article */
+    background: linear-gradient(var(--c) 0 0) no-repeat
+        calc(200% - var(--_p, 0%)) 100% / 200% var(--_p, 0.08em);
+    transition: 0.3s var(--_s, 0s),
+        background-position 0.3s calc(0.3s - var(--_s, 0s));
+}
+
+.product-name:hover {
+    --_t: var(--h);
+    --_p: 100%;
+    --_s: 0.3s;
+}
+
+.product-pagination {
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.product-ad-container {
+    position: relative;
+    text-align: center;
+}
+
+.product-ads-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.product-ad-image {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.product-card-btn {
+    transition: background-color 0.5s;
+}
+
+.product-card-btn:hover {
+    background-color: #228be6;
+    color: white;
+}
